@@ -2,7 +2,8 @@ require 'yaml'
 
 def load_library (file)
   emoji = YAML.load_file(file)
-  return emoji
+  emoji.each {|key, value|
+    
 end
 
 def get_japanese_emoticon
