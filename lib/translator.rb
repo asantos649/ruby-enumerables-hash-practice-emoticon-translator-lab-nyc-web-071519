@@ -35,7 +35,7 @@ def get_japanese_emoticon (file, emote)
     if new_hash[key] == emote
       return new_hash[key]
     else
-      "whoops"
+      puts "12"
     end
   }
 end
