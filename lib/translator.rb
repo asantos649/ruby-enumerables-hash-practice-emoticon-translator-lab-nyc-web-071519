@@ -10,6 +10,7 @@ def load_library (file)
       counter +=1
     end 
   }
+  
     new_hash
 end
 
