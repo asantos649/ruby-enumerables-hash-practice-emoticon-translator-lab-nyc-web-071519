@@ -13,4 +13,4 @@ def get_english_meaning
   # code goes here
 end
 
-puts load_library(lib\translator.rb)
+puts load_library(translator.rb)
