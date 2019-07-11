@@ -16,7 +16,8 @@ def load_library (file)
     ':O' =>
     '%)' =>
     ':$' =>
-    
+    '><>' =>
+    ''
 
   }
     new_hash
