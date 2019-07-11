@@ -30,7 +30,11 @@ end
 
 def get_japanese_emoticon (file, emote)
   new_hash = load_library(file)
-  
+  new_hash.each {|key, value|
+    if emote == key
+      return value
+    end
+  }
 end
 
 def get_english_meaning
