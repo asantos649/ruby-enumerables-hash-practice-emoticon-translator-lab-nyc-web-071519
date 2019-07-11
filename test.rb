@@ -2,8 +2,8 @@ require 'yaml'
 
 def load_library (file)
   emoji = YAML.load_file(file)
-  new_hash = {"get_emoticon" => {}, "get_meaning" => {}}
-  new_hash["get_meeting"] = emoji
+  new_hash = {"get_emoticon" => {}, "get_meaning" => emoji#
+#  new_hash["get_meeting"] = emoji
     
     
 end
