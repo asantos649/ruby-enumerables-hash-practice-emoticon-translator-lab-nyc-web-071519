@@ -9,6 +9,7 @@ def load_library (file)
       new_hash["get_meaning"][emoji[key][counter]] = key
       counter +=1
     end 
+  }
     new_hash
 end
 
