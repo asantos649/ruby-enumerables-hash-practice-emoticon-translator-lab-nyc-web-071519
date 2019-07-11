@@ -12,7 +12,7 @@ def load_library (file)
   }
   new_hash["get_emoticon"] = {
     'O:)' => "☜(⌒▽⌒)☞"
-    '>:(' => ''
+    '>:(' => ""
     ':O' =>
     '%)' =>
     ':$' =>
