@@ -19,6 +19,7 @@ def load_library (file)
     '><>' =>
     '8D' =>
     '=D' =>
+    ':)' =>
     
 
   }
