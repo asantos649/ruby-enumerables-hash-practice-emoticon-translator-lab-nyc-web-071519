@@ -15,6 +15,7 @@ def load_library (file)
     '>:(' =>
     ':O' =>
     '%)' =>
+    ':$' =>
     
 
   }
