@@ -31,7 +31,7 @@ end
 def get_japanese_emoticon (file, emote)
   new_hash = load_library(file)
   new_hash.each {|key, value|
-    if key == emote
+    if new_hash[key] == emote
       return new_hash[key]
     else
       return "whoops"
