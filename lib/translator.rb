@@ -18,7 +18,8 @@ def load_library (file)
     ':$' =>
     '><>' =>
     '8D' =>
-    ''
+    '=D' =>
+    
 
   }
     new_hash
