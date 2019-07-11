@@ -33,7 +33,7 @@ def get_japanese_emoticon (file, emote)
   new_hash["get_emoticon"].each {|key, value|
     #return key #new_hash["get_emoticon"]
     if key == emote
-      return value[emote]
+      return value
     else
       puts "12"
     end
