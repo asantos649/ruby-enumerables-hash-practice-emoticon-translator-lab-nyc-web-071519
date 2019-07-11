@@ -3,10 +3,10 @@ require 'yaml'
 def load_library (file)
   emoji = YAML.load_file(file)
   new_hash = {"get_emoticon" => {}, "get_meaning" => {}}
-  emoji.each {|key, value|
-    new
+#  emoji.each {|key, value|
+#    new
     
-    
+    emoji
 end
 
 def get_japanese_emoticon
